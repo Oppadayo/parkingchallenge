@@ -95,9 +95,6 @@ export function Exit() {
           <div className="my-2">
             <Label className="mb-2">Número da placa:</Label>
             <div className="my-2">
-              <Label htmlFor="plate" className="mb-2">
-                Número da placa:
-              </Label>
               <Controller
                 control={control}
                 name="plate"

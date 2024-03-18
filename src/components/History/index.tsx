@@ -27,7 +27,7 @@ export function History() {
   }
 
   return (
-    <>
+    <div className="md:flex place-content-center">
       <Card className="w-screen mt-6 md:w-[500px]">
         <CardHeader>
           <div className="flex items-center space-x-6">
@@ -96,6 +96,6 @@ export function History() {
           </div>
         </AlertDialogContent>
       </AlertDialog>
-    </>
+    </div>
   );
 }
