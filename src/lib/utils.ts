@@ -14,7 +14,7 @@ export function validatePlate(sequence: string): boolean {
 export function maskPlate(valor: string) {
   const valorLimpo = valor.replace(/[^a-zA-Z0-9]/g, "");
 
-  const letras = valorLimpo.substring(0, 3).toUpperCase();
+  const letras = valorLimpo.substring(0, 3).replace(/[0-9]/g, "").toUpperCase();
   const numeros = valorLimpo.substring(3).replace(/\D/g, "").substring(0, 4);
 
   let valorFormatado = letras + (numeros.length > 0 ? "-" + numeros : "");
