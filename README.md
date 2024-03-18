@@ -1,5 +1,5 @@
 
-# Título do Projeto
+# Parking Challenge
 
 O projeto parking challenge é uma aplicação web responsiva para cadastro e saída de veiculos no estacionamento.
 
